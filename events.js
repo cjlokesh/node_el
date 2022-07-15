@@ -58,6 +58,7 @@ server.on("close", (req, res) => {
   res.end("Server closed");
 });
 
+// start
 server.listen(8000, "127.0.0.1", () => {
   console.log("Waiting for requests");
 });
